@@ -505,6 +505,10 @@ background-color: var(--dark);
 .team-section{
     background: var(--dark);
 }
+.team-section > .container{
+    overflow: hidden;
+    padding-bottom: 50px;
+}
 .team-item{
     width: calc((100%/3) - 30px);
     padding: 0 15px;
